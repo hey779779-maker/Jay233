@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 3,
+  "name": "DataFlow Pro - 小红书爆款洞察",
+  "version": "1.1.0",
+  "description": "专业级全网电商数据智能终端，检测小红书/抖音爆款数据。",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "打开 DataFlow Pro"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "permissions": ["activeTab", "scripting", "sidePanel"],
+  "host_permissions": ["<all_urls>"]
+}
